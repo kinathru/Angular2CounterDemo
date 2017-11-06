@@ -1,6 +1,9 @@
 <div>
   <h2>{{componentName}}</h2>
   <button (click)="increment()">Increment</button><br/>
-  <h3>{{counter}}</h3><br/>
-  <button (click)="decrement()">Decrement</button><br/>
+  <h3>{{counter}}</h3>
+  <button (click)="decrement()">Decrement</button><br/><br/>
+
+  Name     : <input type="text" [(ngModel)]="username" width="100px" height="10px"/><br/>
+  Name is  : {{username}}
 </div>

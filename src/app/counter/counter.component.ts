@@ -9,6 +9,8 @@ export class CounterComponent implements OnInit {
 
   private componentName: string;
   private counter: number;
+  private username: string;
+  private validity: boolean;
 
   constructor() {
     this.componentName = 'Counter Component';
