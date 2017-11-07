@@ -8,6 +8,8 @@ import { CounterComponent } from './counter/counter.component';
 import { HashComponent } from './hash/hash.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
+import { CustomEventBindingComponent } from './custom-event-binding/custom-event-binding.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
     CounterComponent,
     HashComponent,
     DatabindingComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    EventBindingComponent,
+    CustomEventBindingComponent
   ],
   imports: [
     BrowserModule,
