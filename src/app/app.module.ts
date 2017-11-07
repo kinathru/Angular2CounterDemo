@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
+import { HashComponent } from './hash/hash.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CounterComponent
+    CounterComponent,
+    HashComponent
   ],
   imports: [
     BrowserModule,
