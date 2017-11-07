@@ -7,9 +7,10 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 })
 export class CustomEventBindingComponent implements OnInit {
 
-  @Output() clicked = new EventEmitter<string>();
+  @Output('clickable') clicked = new EventEmitter<string>();
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
