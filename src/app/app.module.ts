@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
 import { HashComponent } from './hash/hash.component';
 import { DatabindingComponent } from './databinding/databinding.component';
-import { PropertyBindingComponent } from './databinding/property-binding.component';
+import { PropertyBindingComponent } from './property-binding/property-binding.component';
 
 @NgModule({
   declarations: [
